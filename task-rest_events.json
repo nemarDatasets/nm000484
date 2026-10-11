@@ -1,0 +1,17 @@
+{
+  "trial_type": {
+    "Description": "qHFO detection from the release qHFOdetection.mat (automated high-frequency-oscillation detector output; some are EMG-false HFOs, see the release code and the article)",
+    "Levels": {
+      "qHFO": "detected HFO candidate"
+    }
+  },
+  "channel": {
+    "Description": "Channel of the detection (release chanIdx, 1-based row -> chNN)"
+  },
+  "sample": {
+    "Description": "Release startIdx (0-based here)"
+  },
+  "stop_sample": {
+    "Description": "Release stopIdx (0-based here)"
+  }
+}

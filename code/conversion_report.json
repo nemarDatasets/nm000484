@@ -1,0 +1,18 @@
+{
+  "sha256_intracranialEEG": "2df55df43a6b5cb6f5abb93226d4ce282aa53c5ee1143a8dc44557ea85148561",
+  "sha256_qHFO": "d6aab38cd0f5f1ad5d70fd4bf7803ec116d02645fc414aaa12332ddbdf00641d",
+  "h5_shape": [
+    3000001,
+    61
+  ],
+  "h5_dtype": "int16",
+  "run": {
+    "n_samples": 3000001,
+    "sfreq": 5000.0,
+    "n_channels": 61,
+    "float32_max_abs_err": 0.0,
+    "roundtrip_ok": true,
+    "duration_s": 600.0002
+  },
+  "n_events": 357
+}

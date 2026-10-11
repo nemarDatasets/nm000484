@@ -1,0 +1,12 @@
+{
+  "age": {
+    "Description": "Not given in the release",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given in the release"
+  },
+  "group": {
+    "Description": "Patient with intracranial EEG monitoring (example recording of the release)"
+  }
+}

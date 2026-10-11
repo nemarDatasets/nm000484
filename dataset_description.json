@@ -1,0 +1,40 @@
+{
+  "Name": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0-1.0",
+  "Authors": [
+    "William Stacey",
+    "Stacey lab (University of Michigan)"
+  ],
+  "HowToAcknowledge": "Cite the Mendeley Data release (doi:10.17632/bt58z3yhdy.1, CC0) and the article: Ren S, Gliske SV, Brang D, Stacey WC (2019) Redaction of false high frequency oscillations due to muscle artifact improves specificity to epileptic tissue. Clinical Neurophysiology 130(6):976-985, doi:10.1016/j.clinph.2019.03.028.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.17632/bt58z3yhdy.1",
+    "https://doi.org/10.1016/j.clinph.2019.03.028"
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (University of Michigan; see the article doi:10.1016/j.clinph.2019.03.028)"
+  ],
+  "Keywords": [
+    "high-frequency oscillations",
+    "HFO",
+    "EMG artifact",
+    "wavelet entropy",
+    "epilepsy",
+    "intracranial EEG",
+    "example data"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17632/bt58z3yhdy.1",
+      "URL": "https://data.mendeley.com/datasets/bt58z3yhdy/1",
+      "Version": "1 (examples.zip, 358 MB), licence CC0 1.0 (Mendeley record)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_D_convert_l83.py",
+      "Description": "intracranialEEG.mat int16 matrix -> BrainVision IEEE float32 (values unchanged, 5000 Hz from the release script), qHFOdetection.mat -> events.tsv. Code in code/."
+    }
+  ]
+}
