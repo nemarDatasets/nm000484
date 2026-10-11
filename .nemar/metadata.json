@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "William Stacey": {},
+    "Stacey lab (University of Michigan)": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17632/bt58z3yhdy.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.clinph.2019.03.028",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000484",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000484",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "1.02 GB (5 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "An example intracranial EEG recording from a single epilepsy monitoring patient, comprising 61 channels sampled at 5000 Hz for 10 minutes, together with 357 automated qHFO (quasi high-frequency oscillation) detections. The data were released with the code of Ren et al. (2019) to demonstrate a wavelet-entropy feature that separates EMG-contaminated false HFOs from true HFOs. Recordings are converted to BrainVision format, and detections are provided as BIDS events.",
+  "methods_description": "The source int16 intracranial matrix (61 x 3000001, 5000 Hz) was converted to BrainVision IEEE float32 with values unchanged. Automated qHFO detections (start/stop sample and channel) were converted to events.tsv. No channel names, electrode positions, reference or units were provided in the original release.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "high-frequency oscillations"
+    },
+    {
+      "term": "EMG artifact"
+    },
+    {
+      "term": "wavelet entropy"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "ee060a9164382cf40d8f28fdb95aca223e42af37c24e4ac081567dd8061bb38d"
+}
