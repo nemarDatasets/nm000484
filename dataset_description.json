@@ -36,5 +36,7 @@
       "Name": "o5c_D_convert_l83.py",
       "Description": "intracranialEEG.mat int16 matrix -> BrainVision IEEE float32 (values unchanged, 5000 Hz from the release script), qHFOdetection.mat -> events.tsv. Code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000484",
+  "Version": "1.0.0"
 }
