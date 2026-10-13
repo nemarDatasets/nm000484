@@ -1,56 +1,15 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
+  "description": "An example intracranial EEG recording from a single epilepsy patient under intracranial monitoring, comprising 61 channels sampled at 5000 Hz for 10 minutes, together with 357 automated qHFO (quantified high-frequency oscillation) detections. The data were released with the code for a study that redacts false HFOs caused by muscle artifact, and demonstrate a wavelet-entropy feature separating EMG-contaminated false HFOs from real HFOs. Converted to BIDS from the Mendeley Data release.",
+  "methods_description": "The original release provides a 61 x 3000001 int16 intracranial EEG matrix sampled at 5000 Hz and qHFO detections as start/stop sample indices and channel indices. These were converted to BrainVision IEEE float32 with values unchanged, and the detections were written to events.tsv. No channel names, electrode positions, reference or units were released.",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
   "authors": {
     "William Stacey": {},
     "Stacey lab (University of Michigan)": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.17632/bt58z3yhdy.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "10.1016/j.clinph.2019.03.028",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000484",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000484",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
-  "license": "CC0-1.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "1.02 GB (5 files)"
-  ],
-  "formats": [
-    ".docx",
-    ".eeg",
-    ".json",
-    ".m",
-    ".mat",
-    ".py",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "An example intracranial EEG recording from a single epilepsy monitoring patient, comprising 61 channels sampled at 5000 Hz for 10 minutes, together with 357 automated qHFO (quasi high-frequency oscillation) detections. The data were released with the code of Ren et al. (2019) to demonstrate a wavelet-entropy feature that separates EMG-contaminated false HFOs from true HFOs. Recordings are converted to BrainVision format, and detections are provided as BIDS events.",
-  "methods_description": "The source int16 intracranial matrix (61 x 3000001, 5000 Hz) was converted to BrainVision IEEE float32 with values unchanged. Automated qHFO detections (start/stop sample and channel) were converted to events.tsv. No channel names, electrode positions, reference or units were provided in the original release.",
   "keywords": [
     {
       "term": "intracranial EEG"
@@ -75,5 +34,48 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
-  "source_hash": "ee060a9164382cf40d8f28fdb95aca223e42af37c24e4ac081567dd8061bb38d"
+  "related_identifiers": [
+    {
+      "identifier": "10.17632/bt58z3yhdy.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.clinph.2019.03.028",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000484",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000484",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "1.02 GB (5 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "fc0cda367599c3493c2c4519cc0fa681f1ee7938b37de00ee008c300178061b3"
 }
