@@ -1,5 +1,5 @@
 {
-  "Name": "Ren-2019-redaction-10.1016/j.clinph.2019.03.028",
+  "Name": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC0-1.0",
@@ -38,5 +38,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000484",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
