@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
-  "description": "An example intracranial EEG recording from a single epilepsy patient under intracranial monitoring, comprising 61 channels sampled at 5000 Hz for 10 minutes, together with 357 automated qHFO (quantified high-frequency oscillation) detections. The data were released with the code for a study that redacts false HFOs caused by muscle artifact, and demonstrate a wavelet-entropy feature separating EMG-contaminated false HFOs from real HFOs. Converted to BIDS from the Mendeley Data release.",
-  "methods_description": "The original release provides a 61 x 3000001 int16 intracranial EEG matrix sampled at 5000 Hz and qHFO detections as start/stop sample indices and channel indices. These were converted to BrainVision IEEE float32 with values unchanged, and the detections were written to events.tsv. No channel names, electrode positions, reference or units were released.",
+  "title": "Ren-2019-redaction-10.1016/j.clinph.2019.03.028",
+  "description": "An example intracranial EEG recording from one patient under intracranial monitoring, distributed with the code accompanying Ren, Gliske, Brang and Stacey (2019). It contains 61 channels sampled at 5000 Hz for 10 minutes, along with 357 automated qHFO (quantitative high-frequency oscillation) detections. The data demonstrate a wavelet-entropy feature that separates EMG-contaminated false HFOs from true HFOs in epilepsy.",
+  "methods_description": "The recording is a 61-channel intracranial EEG matrix (3,000,001 samples at 5000 Hz) converted from MATLAB int16 to BrainVision float32 with values unchanged. The qHFO detections (start/stop sample and channel) were converted to events.tsv. Channel names, electrode positions, reference and units were not released.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -18,10 +18,16 @@
       "term": "high-frequency oscillations"
     },
     {
+      "term": "HFO"
+    },
+    {
       "term": "EMG artifact"
     },
     {
       "term": "wavelet entropy"
+    },
+    {
+      "term": "example data"
     },
     {
       "term": "Epilepsy",
@@ -77,5 +83,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "fc0cda367599c3493c2c4519cc0fa681f1ee7938b37de00ee008c300178061b3"
+  "source_hash": "1d41189d6751aefb22686a731723f8b37e4ca526c012bce7a8b27ea0511a0ea9"
 }
