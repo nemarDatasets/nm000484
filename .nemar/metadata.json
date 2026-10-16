@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
-  "description": "An example intracranial EEG recording from one patient under intracranial monitoring, distributed with the code accompanying Ren, Gliske, Brang and Stacey (2019). It contains 61 channels sampled at 5000 Hz for 10 minutes, along with 357 automated qHFO (quantitative high-frequency oscillation) detections. The data demonstrate a wavelet-entropy feature that separates EMG-contaminated false HFOs from true HFOs in epilepsy.",
-  "methods_description": "The recording is a 61-channel intracranial EEG matrix (3,000,001 samples at 5000 Hz) converted from MATLAB int16 to BrainVision float32 with values unchanged. The qHFO detections (start/stop sample and channel) were converted to events.tsv. Channel names, electrode positions, reference and units were not released.",
+  "description": "An example intracranial EEG recording from one patient under intracranial monitoring, distributed with the code for a study on redacting false high frequency oscillations (HFOs) caused by muscle artifact. It contains 61 channels sampled at 5000 Hz for 10 minutes, with 357 automated qHFO detections given as start/stop samples and channels. The recording demonstrates the wavelet-entropy feature that separates EMG-contaminated false HFOs from real HFOs.",
+  "methods_description": "The original intracranial EEG matrix (int16, 61 x 3000001, 5000 Hz) was converted to BrainVision IEEE float32 with values unchanged. The qHFO detection sample indices were converted to an events.tsv file. Channel names, units, electrode positions and reference were not provided in the source release.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -18,26 +18,16 @@
       "term": "high-frequency oscillations"
     },
     {
-      "term": "HFO"
-    },
-    {
       "term": "EMG artifact"
     },
     {
       "term": "wavelet entropy"
     },
     {
-      "term": "example data"
+      "term": "Epilepsy"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "Electroencephalography"
     }
   ],
   "related_identifiers": [
